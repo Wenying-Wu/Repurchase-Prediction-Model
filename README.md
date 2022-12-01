@@ -6,7 +6,7 @@
 
 ### Overview:
 
-This report is aiming at providing suggestion on targeting existing customer for a re-purchase campaign for an automotive manufacturer. Exploratory Data Analysis (EDA) is performed on data set, both linear model and tree-based model are trained for selection and customers that are likely to re-purchase is predicted based on the random forest model which performs the best under this circumstance.
+This report is aiming at providing suggestions on targeting existing customers for a re-purchase campaign for an automotive manufacturer. Exploratory Data Analysis (EDA) is performed on data set, both linear model and tree-based model are trained for selection and customers that are likely to re-purchase are predicted based on the random forest model which performs the best under this circumstance.
 
 
 There are four models trained for comparison, namely logistic model, LASSO regression model, decision tree model and random forest model. 
@@ -22,13 +22,13 @@ Random forest prediction shows that 1,246 (2.5%) customers in ‘repurchase_vali
 
 
 ### Output:
-#### [Written Report]()
+#### [Written Report](https://github.com/Wenying-Wu/Repurchase-Prediction-Model/blob/main/report_repurchase_prediction_model.pdf)
 
 > The approach used, assumptions and supporting rationale for each stage of the CRISP-DM framework. Results and recommendations, including supporting visualisations and summary data. Evaluate the results of different techniques, giving reasons for the final approach.
 
-#### [Workfile]()
+#### [Workfile](https://github.com/Wenying-Wu/Repurchase-Prediction-Model/blob/main/workfile_repurchase_prediction_model.R)
 > An appendix including working code
 
 ### Result:
 
-Random forest prediction shows that 1,246 (2.5%) customers in ‘repurchase_validation.csv’ are with Target = 1 which means they predicted to be a re-purchaser. However, to ensure not a single re-purchaser is missed, the car manufacturer can prepare two versions of re-purchase communication. The brief version can be sent to all customers with Target = 0 and a detailed version can be sent to those with Target = 1.
+Random forest prediction shows that 1,246 (2.5%) customers in ‘repurchase_validation’ are with Target = 1 which means they predicted to be a re-purchaser. However, to ensure not a single re-purchaser is missed, the car manufacturer can prepare two versions of re-purchase communication. The brief version can be sent to all customers with Target = 0 and a detailed version can be sent to those with Target = 1.
